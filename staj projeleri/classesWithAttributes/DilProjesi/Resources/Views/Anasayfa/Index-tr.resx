@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+	<data name="yatirimci" xml:space="preserve">
+    <value>Yatırımcı</value>
+  </data>
+
+  <data name="yatirimyap" xml:space="preserve">
+    <value>Yatırım Yap</value>
+  </data>
+
+  <data name="girisimsermayasiyatirimfonlari" xml:space="preserve">
+    <value>Girişim Sermayesi Yatırım Fonları </value>
+  </data>
+
+  <data name="destekmerkezi" xml:space="preserve">
+    <value>Destek Merkezi </value>
+  </data>
+
+  <data name="girisimci" xml:space="preserve">
+    <value>Girişimci</value>
+  </data>
+
+  <data name="projenigonder" xml:space="preserve">
+    <value>Projeni Gönder</value>
+  </data>
+
+  <data name="destekmerkezi" xml:space="preserve">
+    <value>Destek Merkezi</value>
+  </data>
+
+  <data name="gereklifonanasilulasirim" xml:space="preserve">
+    <value>Gerekli Fona Nasıl ulaşırım </value>
+  </data>
+
+  <data name="kurumsal" xml:space="preserve">
+    <value>Kurumsal</value>
+  </data>
+
+<data name="hakkimizda" xml:space="preserve">
+    <value>Hakkımızda </value>
+  </data>
+
+<data name="takimimiz" xml:space="preserve">
+    <value>Takımımız</value>
+  </data>
+
+  <data name="yonetimkurulumuz" xml:space="preserve">
+    <value>Yönetim Kurulumuz</value>
+  </data>
+
+  <data name="yatirimkomitesi" xml:space="preserve">
+    <value>Yatırımı Komitesi </value>
+  </data>
+
+  <data name="kampanyalar" xml:space="preserve">
+    <value>Kampanyalar</value>
+  </data>
+
+  <data name="tumkampanyalar" xml:space="preserve">
+    <value>Tüm Kampanylar</value>
+  </data>
+
+  <data name="kurumsal" xml:space="preserve">
+    <value>Kurumsal</value>
+  </data>
+
+  <data name="hakkimizda" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+
+  <data name="yonetimkurulu" xml:space="preserve">
+    <value>Yönetim Kurulu</value>
+  </data>
+
+  <data name="yatirimkomitesi" xml:space="preserve">
+    <value>Yatırım Komitesi </value>
+  </data>
+
+  <data name="takimimiz" xml:space="preserve">
+    <value>Takımımız </value>
+  </data>
+
+  <data name="gsyf" xml:space="preserve">
+    <value>GSYF</value>
+  </data>
+
+  <data name="melekyatirimagi" xml:space="preserve">
+    <value>Melek Yatırım Ağı</value>
+  </data>
+
+  <data name="hissedarlar" xml:space="preserve">
+    <value>Hissedarlar</value>
+  </data>
+
+  <data name="cozumortaklarimiz" xml:space="preserve">
+    <value>Çözüm Ortaklarımız</value>
+  </data>
+
+  <data name="iletisim" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+
+  <data name="politikalar" xml:space="preserve">
+    <value>Politikalar</value>
+  </data>
+
+  <data name="kalite" xml:space="preserve">
+    <value>Kalite</value>
+  </data>
+
+  <data name="degerlendirme" xml:space="preserve">
+    <value>Değerlendirme</value>
+  </data>
+
+  <data name="cikarcatismasi" xml:space="preserve">
+    <value>Çıkar Çatışması</value>
+  </data>
+
+  <data name="bilgiguvenligi" xml:space="preserve">
+    <value>Bilgi Güvenliği </value>
+  </data>
+
+  <data name="karaparailemucadele" xml:space="preserve">
+    <value>Kara Para İle Mücadale</value>
+  </data>
+
+  <data name="rusvetveyolsuzluklamucadele" xml:space="preserve">
+    <value>Rüşvet Ve Yolsuzluk Mücadalesi </value>
+  </data>
+
+  <data name="bildirimler" xml:space="preserve">
+    <value>Bildirimler</value>
+  </data>
+
+  <data name="kamoyuaydinlatma" xml:space="preserve">
+    <value>Kamuoyu Aydınlatma </value>
+  </data>
+
+  <data name="kvkkbildirimi" xml:space="preserve">
+    <value>KVKK Bildirimi </value>
+  </data>
+
+  <data name="genelriskbildirimi" xml:space="preserve">
+    <value>Genel Risk Bildirimi </value>
+  </data>
+
+  <data name="sermayepiyasasikurulu" xml:space="preserve">
+    <value>Sermaye Piyasası Kurulu </value>
+  </data>
+
+  <data name="uyeliksozlesmesi" xml:space="preserve">
+    <value>Üyelik Sözleşmesi</value>
+  </data>
+
+  <data name="kampanyasozlesmesi" xml:space="preserve">
+    <value>Kampanya Sözleşmesi</value>
+  </data>
+
+  <data name="belgelerimiz" xml:space="preserve">
+    <value>Belgelerimiz</value>
+  </data>
+
+  <data name="uyelikler" xml:space="preserve">
+    <value>Üyelikler</value>
+  </data>
+
+  <data name="merkezkayitkurulusu" xml:space="preserve">
+    <value>Merkez Kayıt Kuruluşu</value>
+  </data>
+
+  <data name="takasbank" xml:space="preserve">
+    <value>Takasbank</value>
+  </data>
+
+  <data name="sermayepiyasasikurumu" xml:space="preserve">
+    <value>Sermaye Piyasası Kurumu</value>
+  </data>
+
+  <data name="dişekonomikiliskilerkurulu" xml:space="preserve">
+    <value>Dış Ekonomik ilişkiler kurulu </value>
+  </data>
+
+  <data name="iletisim" xml:space="preserve">
+    <value>İletişim </value>
+  </data>
+
+  <data name="telefonnumarasi" xml:space="preserve">
+    <value>Telefon Numarası  </value>
+  </data>
+
+  <data name="mail" xml:space="preserve">
+    <value>Mail </value>
+  </data>
+
+  <data name="whatsaap" xml:space="preserve">
+    <value>Whatsaap </value>
+  </data>
+
+  <data name="hakkimizda1" xml:space="preserve">
+    <value>GİRİŞİMCİLİK EKOSİSTEMİ FONANGELS.COM
+         </value>
+  </data>
+
+  <data name="hakkimizda1.1" xml:space="preserve">
+    <value>Girişim Kitle Fonlama Platformu A.Ş. 24 Şubat 2022 tarihinde Sermaye Piyasası Kurulu tarafından listeye alınarak yetkilendirildi
+    </value>
+  </data>
+
+  <data name="orta1" xml:space="preserve">
+    <value>Kadim bir geçmişin yetiştirdiği nesillerin farklı amaçlar ancak aynı merak duygusuyla ürettikleri Teknolojik fikirler; yeryüzünü ve toplumu tanıma ve tanımlama noktasında bir imkân vermiş mevcut ilerleyişin, teknolojik gelişmenin ve fikri değişimin temelini oluşturmuştur.
+Herkesin gördüğünü ancak kimsenin fark edemediğini gören, tasarlayan ve yeni bir fikir meydana getirerek projeler inşa eden Girişimcilerimizin başarıya ulaşacak hayalleri önünde engel olarak bulunan Finansal kaynak sağlama ihtiyacını “Girişim Kitle Fonlama Platformu A.Ş.” olarak, Girişimci ile yatırımcıyı aynı çatı altında buluşturuyoruz.
+Yasal düzenlemeler ışığında güçlü, yenilikçi ve sürdürülebilir bir girişimcilik ekosistemi kurma amacıyla Fonangels markasıyla çıktığımız bu yolda “Kitle Fonlama Sistemi” içerisinde yer alarak Girişimlerini katma değere dönüştüren girişimcilerimizin sunduğu sınırsız perspektifin sağladığı faydaların arkasında destekleyici güç olarak bulunuyoruz.
+</value>
+  </data>
+
+    <data name="orta2" xml:space="preserve">
+    <value>İnsan hayatında fark yaratacak projelerin filizlenmesine ve bu topraklara değer katmasına aracı oluyoruz. </value>
+  </data>
+
+   <data name="orta3" xml:space="preserve">
+    <value>2010 yılından itibaren Girişimciliğin yıldızlarını bulmak için çıktığımız bu yolda tecrübeli ve profesyonel ekibimiz bugüne kadar kazandığı bütün bilgi ve birikimlerini projelerin dünya markası olma yolunda katma değere dönüşebilmesi için çalışıyor. </value>
+  </data>
+
+    <data name="alt" xml:space="preserve">
+    <value>Aynı zamanda yatırımcı çeşitliliğini artırma çalışmalarımızı sürdürürken, yatırımcı karlılığını maksimize edebilmek için değere odaklanıyoruz. Platform olarak; gerçekleşen yatırımlarda dijitalleşmeyi ve siz değerli üyelerimizin deneyimlerini şirket politikasına yansıtmayı önceleyerek tüm süreçlerimizi operasyonel verimlilik bakış açısıyla sürdürüyoruz. Bu doğrultuda Girişimcilerimizden ve Yatırımcılarımızdan aldığımız bu güç ile faaliyetlerimize başarılara imza atarak devam ediyor, Kitle Fonlama Sistemi içerisinde örnek teşkil edecek projeler için tüm gayretimizle çalışıyoruz.
+Fikir aşamasındaki projeleri gerçeğe ardından geleceğe dönüştürülmesini sağlıyoruz.
+Paya Dayalı Kitle Fonlama platformu olan fonangels.com ile girişimci arasında imzalanan sözleşmeyi incelemek için burayı tıklayınız.
+   </value>
+   </data>
+
+   <data name="melekyatirimagi" xml:space="preserve">
+    <value>Melek Yatırım Ağı  </value>
+  </data>
+
+   <data name="ustmenu" xml:space="preserve">
+    <value>Melek Yatırım Ağı tüzel kişiliğe sahip olan bir grup melek yatırımcının bir araya gelmesiyle birlikte güç birliği yaptığı ve sendikasyon usulü ile girişimlere finansman sağlanması sürecine aracılık ederek, bahsi geçen süreci yöneten kurumlardır </value>
+  </data>
+
+   <data name="ortamenu" xml:space="preserve">
+    <value>
+Melek Yatırım Ağlarının Temel Fonksiyonları
+
+Yatırım yapılacak kalitede girişim bulmak, seçmek ve yatırımcı önüne getirmek
+Aylık olarak veya belirli aralıklarla, seçilmiş girişimler ile yatırımcıların bir araya geldiği organizasyonlar yapmak
+Yatırımcılar arasında ilgi toplayan girişimlerin detay analizlerini yapmak ve yatırımcılarla paylaşmak
+Yatırım kararı alınmasında girişimci ile yatırımcı arasında köprü vazifesi görmek
+Yatırım kararı sonrasında niyet mektubunun hazırlanmasında rol almak
+Niyet mektubunu takiben hissedarlar anlaşmasının hazırlanmasında rol almak
+Yatırım sonrasında yatırımların takibi sürecinin yönetilmesinde yatırımcı ile birlikte rol almak
+Yatırımın başarılı olabilmesi için gerekli desteklerin verilmesini organize etmek
+
+ </value>
+  </data>
+
+   <data name="fonangelsmelekyatirimagi" xml:space="preserve">
+    <value>Fonangels bünyesinde birçok melek yatırımcı barındırmaktadır. Girişim ekosistemini desteklemek, teknoloji ve üretim faaliyetinde bulunan girişimlerin erken aşamada ihtiyaç duydukları finansmanı sağlamak amacıyla melek yatırım ağı kurularak web sitemizden ilan edilecektir </value>
+  </data>
+
+  <data name="cerezpolitikasivekvkkbildirimi" xml:space="preserve">
+    <value>
+internet sitemizden verimli şekilde faydalanabilmeniz ve kullanıcı deneyiminizi geliştirebilmek için Çerezler kullanıyoruz. Çerez kullanılmasını tercih etmemeniz halinde tarayıcınızın ayarlarından Çerezleri silebilir ya da engelleyebilirsiniz. Ancak bunun internet sitemizi kullanımınızı etkileyebileceğini lütfen aklınızda bulundurunuz. Tarayıcınızdan Çerez ayarlarınızı değiştirmediğiniz sürece bu sitede çerez kullanımını kabul ettiğinizi varsayacağız.
+Kişisel verilerinizin işlenmesine ilişkin detaylı bilgileri aşağıdaki metinde bulabilirsiniz.
+Kişisel Verileri Koruma Politikamızın amacı; Bilgi Güvenliği Politikamızın gereğince GİRİŞİM KİTLE FONLAMA PLATFORMU A.Ş.’nin dâhil olduğu ulusal, uluslararası ve sektörel düzenlemelerden, ilgili mevzuat ve standartların gereklerini yerine getirmek, ortak çalışılan kurum ve kuruluşlarla yapılan anlaşmaların yükümlülüklerini karşılamak, iç ve dış paydaşlara yönelik kurumsal sorumluluklardan kaynaklanan bilgi güvenliği gereksinimlerini sağlamak, iş sürekliliğini sağlamak ve potansiyel tehditlerin etkisini azaltmak için bilgi güvenliğini tehdit edebilecek vakaları engellemek veya hasar riskini minimize etmektir.
+Bu bağlamda genel politikalarımızın ve işleyişimizin, ICT Bulut Bilişim A.Ş.’den Bilgi Güvenliği Yönetim Sistemi hizmeti satın alınması suretiyle ISO 27001:2013 standardına uyumlu olması hedef alınmıştır.
+Bu politika, GİRİŞİM KİTLE FONLAMA PLATFORMU A.Ş. bünyesindeki tüm bilgi varlıklarını ve bilgiye bağlı oluşan bilgi değerlerini kapsamaktadır. Platformu kullanan kişi, kurum veya kuruluşlara ait istemcilerin donanımlarından ve yazılımlarından kaynaklanan güvenlik sorunları bu politikanın dâhilinde değildir.
+
+</value>
+  </data>
+
+  <data name="sorumluluk" xml:space="preserve">
+    <value>Bilgi Güvenliği Birimimiz; Şirketimiz ve platformlarımızın kullanıcılarının bilgi varlıklarına yönelik risklerin bertaraf edilmesine yönelik tedbirlerin alınması ve koruma sistemlerinin aktif ve en üst seviyede tutulmasından sorumludur.</value>
+  </data>
+
+  <data name="taahhut" xml:space="preserve">
+    <value>GİRİŞİM KİTLE FONLAMA PLATFORMU A.Ş. aşağıdakileri taahhüt eder;
+Kendisinin ve paydaşlarının bilgi varlıklarına güvenli bir şekilde erişim sağlamayı,
+Bilginin bütünlüğünü, gizliliğini ve yetkiler dâhilinde erişilebilirliğini ve sürekliliğini korumayı,
+Kendisinin ve paydaşlarının bilgi varlıkları üzerinde oluşabilecek riskleri değerlendirmeyi ve yönetmeyi,
+Bilgi güvenliği ile ilgili tüm yasal mevzuat ve sözleşmelere uyulması için mümkün olan en kısa sürede ve kesintisiz olarak hizmetlerini sunmayı,
+Bilgi güvenliği yönetim sistemimizin TS ISO/IEC 27001 BGYS standardının gereklerini yerine getirecek şekilde kaynakların tahsis edilmesini, kurulmasını, işletilmesini ve sürekli iyileştirilmesini,
+Kurumun güvenilirliğini ve imajını korumayı,
+Bilgi güvenliği ihlali durumunda gerekli görülen yaptırımları uygulamayı,
+İş/Hizmet sürekliliğine bilgi güvenliği tehditlerinin etkisini azaltmayı ve işin sürekliliği ve sürdürülebilirliğini sağlamayı,
+Kurulan kontrol altyapısı ile bilgi güvenliği seviyesini korumayı ve iyileştirmeyi,
+Bilgi güvenliği farkındalığını arttırmak amacıyla gerek görüldüğünde yetkinlikleri geliştirecek eğitimleri sağlamayı taahhüt eder.
+6698 Sayılı Kişisel Verilerin Korunması Kanunu Kapsamında Kişisel Verilerin 
+İşlenmesi Hakkında Aydınlatma Metni
+</value>
+  </data>
+
+  <data name="verisorumluluguverisorumlusu" xml:space="preserve">
+    <value>   Girişim Kitle Fonlama Platformu A.Ş. olarak 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında kişisel verilerinizi işlenmektedir. Kişisel verileriniz tamamen veya kısmen kaydedilir, depolanır, muhafaza edilir, değiştirilebilir, yeniden düzenlenebilir, açıklanabilir, aktarılabilir, sınıflandırılabilir, üçüncü kişi ya da kurumlara aktarılabilir, yurtdışında değerlendirilebilir.</value>
+  </data>
+
+  <data name="verisahibikvkkbasvuruformu" xml:space="preserve">
+    <value>Veri Sahibi KVKK Başvuru Formu </value>
+  </data>
+
+  <data name="uyeliksozlesmesi " xml:space="preserve">
+    <value>Paya Dayalı Kitle Fonlama platformu olan fonangels.com ile üye arasında imzalanan sözleşmeyi incelemek için tıklayınız.</value>
+  </data>
+
+  <data name="kampanyasozlesmesi " xml:space="preserve">
+    <value>Paya Dayalı Kitle Fonlama platformu olan fonangels.com ile girişimci arasında imzalanan sözleşmeyi incelemek için burayı tıklayınız.</value>
+  </data>
+
+  <data name="gereklifonanasilulasirim" xml:space="preserve">
+    <value>Girişimcilerin hedeflediği fon miktarına ulaşabilmesi için;
+Değerlendirme ve Yatırım Komitesi Onayı Kampanya Süreci ve Fonlama Şeklinde sıralanan 3 aşamayı tamamlamaları gerekmektedir. Bunun için öncelikli olarak Girişimcilerimiz, projelerini sisteme yükleyerek platformumuza ulaştırması gerekmektedir.
+Proje başvurusu yapmak için; Buraya tıklayarak projenizi bizlere ulaştırabilirsiniz.</value>
+  </data>
+
+  <data name="destekmerkezi" xml:space="preserve">
+    <value>Destek Merkezi</value>
+  </data>
+
+  <data name="gsyfnedir" xml:space="preserve">
+    <value>Tasarruf sahiplerinden fon katılma payı karşılığında toplanan para ya da diğer varlıklarla, tasarruf sahipleri hesabına, inançlı mülkiyet esaslarına göre kurulca belirlenen varlık ve haklardan oluşan portföy veya portföyleri işletmek amacıyla portföy yönetim şirketleri tarafından fon iç tüzüğü ile kurulan ve tüzel kişiliği bulunmayan mal varlığıdır.
+
+</value>
+  </data>
+
+  <data name="gsyfavantajlarinedir" xml:space="preserve">
+    <value>Girişim Sermayesi Yatırım Fonuna katılım sağlayan kurumlar vergisi mükellefi olan şirketler GYSF’ye katılım tutarları miktarınca kurumlar vergisinden muaf tutulmaktadır. Örneğin; bir sermaye şirketi (Anonim Şirketi veya Limited Şirketi) 2021 yılı kazancından ayıracağı %10 fonu, 2022 yılı sonuna kadar herhangi bir girişim sermayesi yatırım ortaklığına yatırır ya da girişim sermayesi yatırım fonunun katılma belgelerini alırsa 2022 yılı beyannamesinde ödediği bu tutarın tamamını indirim olarak düşebilmektedir. Böylece yatırdığı fonun %25’i kadar vergisel avantaj elde edebilir.  iptal
+İstediğim miktarda yatırım yapabilir miyim?
+1 TL ile 150.000 TL arasında yatırım gerçekleştirme limitiniz bulunmaktadır. Ancak gelir beyanında bulunmanız halinde bu limiti 600.000 TL’ye kadar artırabilirsiniz. Nitelikli ve Kurumsal yatırımcılar için yatırım limiti bulunmaz.</value>
+  </data>
+
+  <data name="yatirimcilaricinkitleselfonlamanedir" xml:space="preserve">
+    <value>Yüksek çarpanlı getiriler kazandıracak Projelere mekân ve zaman kısıtlaması olmadan ulaşabilmeye tekabül etmektedir.</value>
+  </data>
+
+  <data name="kitlefonlama2.0nedir" xml:space="preserve">
+    <value>Start up aşamasında olan Girişimciler, Kitle Fonlama Sistemine dâhil olarak Venture Capital veya Melek yatırımcıdan alacağı parayla kendilerini Venture Capital’in alternatifinde konumlandırarak kendi personelini şirketinde ortaklık veremeyen ancak şirket içerisine almak isteyenlerin oluşturdukları portföy alanıdır.</value>
+  </data>
+
+
+  <data name="fonangelskimdir" xml:space="preserve">
+    <value>Girişim ve yatırım alanında güçlü bir ekosistem oluşturabilmek için Girişimci ile Yatırımcıyı aynı çatı altında buluşturarak insan hayatında fark yaratacak projelerin filizlenmesine ve bu topraklara değer katmasına aracı olan bir kitle fonlama platformudur.</value>
+  </data>
+
+  <data name="fonangelsnezamankuruldu" xml:space="preserve">
+    <value>Girişim Kitle Fonlama Platformu A.Ş. olarak Paya Dayalı Kitle Fonlaması alanında 24 Şubat 2022 tarihinde Sermaye Piyasası Kurulu (SPK) tarafından listeye alınarak yetkilendirilmiştir.</value>
+  </data>
+
+  <data name="fonangelsnasilcalişir" xml:space="preserve">
+    <value>
+Başlangıç aşamasındaki projelerin faaliyete geçirilmesini sağlayarak Girişimcilerin finansman ihtiyacının karşılanmasını sağlamak amacıyla Paya Dayalı Kitle Fonlama kampanyası gerçekleştirir. Fonangels, inovatif projelerin E-Devlet doğrulamasıyla kayıt olan yatırımcılar tarafından 1 TL’ye dahi fonlanmasını sağlayarak fikir sahibi girişimcilerin desteklenmesini ve geleceğe yatırım yapmak isteyen Yatırımcıların teknoloji ve üretim alanındaki projeleri keşfetmesini aracılık etmek amacıyla çalışmalarını yürütür.
+</value>
+  </data>
+
+  <data name="platformunuzanasiluyeolabilirim" xml:space="preserve">
+    <value>
+
+“Kayıt Ol” butonuna tıklayarak e-Posta adresinize gelen “Hesabımı Aktive Et” butonuna tıklamanız akabinde E-Devlet, TCKN ve telefon doğrulamasını yaparak Platformumuza ücretsiz üye olabilirsiniz. Böylelikle projeleri detaylı inceleyebilir, Yatırımlarınızı güvenle gerçekleştirebilir ve Platformumuz hakkında gelişmeleri takip edebilirsiniz.
+
+</value>
+  </data>
+
+  <data name="kitlefonlamadakimleryatirimyapabilir" xml:space="preserve">
+    <value>
+Türkiye’de yerleşik tüm kişiler (gerçek ve tüzel) paya dayalı kitle fonlama ile yatırımcı olabilir. Yatırımcılar, kimlik bilgileri ile uyumlu bir ödeme aracıyla yatırım yapmalıdır.
+
+</value>
+  </data>
+
+  <data name="nasilyatirimciolabilirim" xml:space="preserve">
+    <value>
+Öncelikli olarak web sitemize üye olmalısınız. Anasayfada yer alan projeleri inceleyerek yatırım yapmak istediğiniz proje üzerine gelip YATIRIM YAP butonuna tıklayarak 3 dakikada Kredi Kartı veya EFT olarak yatırım miktarınızı yazarak işlemi tamamlayabilirsiniz.
+
+</value>
+  </data>
+
+  <data name="takasbankkimdir" xml:space="preserve">
+
+Takasbank, Borsa İstanbul bünyesinde mevcut piyasalarda gerçekleşen; pay, borçlanma araçları, yurt dışı sermaye piyasası araçları, türev araçlar ile ilgili işlemlerin nakit ve menkul kıymet takasını sonuçlandırmak üzere yetkilendirilmiş merkezi takas kuruluşudur.
+</value>
+  </data>
+
+  <data name="merkezikayitkurulusukimdir" xml:space="preserve">
+    <value>
+Türk Sermaye Piyasalarının Merkezi Saklama Kuruluşu olarak üyelerine saklama, veri depolama ve raporlama, kurumsal yönetim ve yatırımcı hizmetlerini sunan Platformumuz aracılığı ile yapmış olduğunuz yatırımlarınızı kaydileştiren ve güvenli yatırım yapma imkânını oluşturan kuruluştur.
+</value>
+  </data>
+
+  
+   <data name="projeminkabuledilipedilmedigininasilogrenebilirim" xml:space="preserve">
+    <value>
+Web sitemiz üzerinden başvurulan tüm projeler Proje ekibimiz tarafından değerlendirmeye alınır. Değerlendirme sürecini tamamlayan projelere Girişimcinin belirtmiş olduğu iletişim adresine yazılı olarak olumlu/olumsuz geri dönüş sağlanır.
+ </value>
+  </data>
+  
+   <data name="yatirimkomitesinedir" xml:space="preserve">
+    <value>
+Girişimci veya girişim şirketi tarafından hazırlanan fizibilite raporunu değerlendiren, kampanyalara ilişkin hazırlanan bilgi formunu onaylayan ve platform yönetim kurulu tarafından belirlenen komitedir.
+ </value>
+  </data>
+  
+   <data name="yatirimcisunumunedir" xml:space="preserve">
+    <value>
+Girişimciler finansman ihtiyacını karşılayabilmek ve yatırımcıların dikkatini çekmek ve işlerlik kazanan projeyi kısa, öz ve net tanımlarla anlatabilmek için hazırladıkları sunumlardır.
+</value>
+  </data>
+  
+   <data name="anasozlesmenedir" xml:space="preserve">
+    <value>
+Girişimin resmi yansıması olan şirketlerin kuruluş aşamasında Platform ile Girişimci arasında yazılı şekilde düzenlenerek imzalanan belgedir.
+  </value>
+  </data>
+  
+   <data name="hissepaynedir" xml:space="preserve">
+    <value>
+Ortaklarına sermaye paylarını belgelendirmek için verilen ve sahibine şirketin yıllık karından pay alma hakkı veren evraktır
+  </value>
+  </data>
+  
+   <data name="b2cismodelinedir" xml:space="preserve">
+    <value>
+“Business to Consumer” / “Firmadan Tüketiciye” kavramı, şirketlerin tüketicilerle direkt olarak kurduğu ticari bağlantıyı tanımlayan ifadedir.
+</value>
+  </data>
+  
+   <data name="b2bismodelinedir" xml:space="preserve">
+    <value>
+“Business to Business / “Şirketten Şirkete” kavramı şirketlerin kendi aralarında gerçekleştirdikleri pazarlama veya satış uygulamalarını ifade eder.
+
+</value>
+  </data>
+  
+   <data name="bagimsizdenetimraporunedir" xml:space="preserve">
+    <value>
+Bağımsız denetçi tarafından hazırlanan, denetçinin işletmeye ait finansal tablolara ilişkin açık görüşünü kapsayan belgedir
+</value>
+  </data>
+
+  <data name="paylarinbirimnominaldegerinedir" xml:space="preserve">
+    <value>
+Hisse senedinin üzerinde belirtilen pay miktarının ve buna bağlı olarak o hisse senedinin değerini gösteren bir ifadedir.
+</value>
+  </data>
+  
+   <data name="gelirgidertablosunedir" xml:space="preserve">
+    <value>
+Girişim Şirketinin belirli bir hesap döneminde elde ettiği gelirle, yaptığı giderleri sıralı bir şekilde gösteren ve dönem faaliyetlerinin net sonucunu, kar ve zarar olarak özetleyen bir tablodur
+</value>
+  </data>
+
+  <data name="adihissenedir" xml:space="preserve">
+    <value>
+Hisse sahibine hissedar toplantılarında oy kullanma ve şirket karının bir kısmını temettü olarak alma hakkı veren belgedir. 
+
+</value>
+  </data>
+
+  <data name="swotanalizinedir" xml:space="preserve">
+    <value>
+Girişimin güçlü / zayıf yönlerini, fırsatlarını ve tehditlerini belirlemek ve analiz etmek için oluşturulmuş içeriktir.
+</value>
+  </data>
+
+  <data name="paylarinnamayaziliolmasinedir" xml:space="preserve">
+    <value>
+Belirli bir gerçek veya tüzel kişi adına düzenlenen ve kişinin anonim şirkette sahip olduğu payları temsil eden senettir.
+</value>
+  </data>
+
+<data name="imtiyazlihissenedir" xml:space="preserve">
+    <value>
+Kâr payı, tasfiye payı, rüçhan ve oy hakkı gibi haklarda, paya tanınan üstün bir hak veya kanunda öngörülmemiş yeni bir pay sahipliğidir.
+
+</value>
+  </data>
+
+  <data name="kampanyasüresikacgünolmali" xml:space="preserve">
+    <value>
+Bir kampanya süresi en fazla 60 gün olmalıdır.
+</value>
+  </data>
+
+  <data name="kampanyamierkensonlandirabilirmiyim" xml:space="preserve">
+    <value>
+Kampanya hedeflediği fon miktarına ulaşması durumundan erken kapama işlemi uygulanabilir.
+</value>
+  </data>
+
+  <data name="yabanciyatirimcilarnasilyatirimyapabilir" xml:space="preserve">
+    <value>
+YKN(Yabancı Kimlik Numarası) olan yabancı uyruklu kişiler doğrudan MKK sistemine dâhil olabilmektedir. Ancak YKN’si olmayan kişiler ihraççı şirket veya yatırımcı şirket nezdinde hesap açıp MKK’dan sicil numarası alarak MKK sistemine dâhil olabilmektedir.
+</value>
+  </data>
+
+  <data name="yapilanyatirimlarkurkorumalimevduataalinabilirmi" xml:space="preserve">
+    <value>
+Toplanan fon miktarı Takas Bank tarafından bloke edilmektedir. USD karşılığında bir yatırım kabul edilmemekle birlikte sistem TL olarak yürütülmektedir. Bu bağlamda kur korumalı bir mevduat çalışması bulunmamaktadır.
+</value>
+  </data>
+
+  <data name="temettünedir" xml:space="preserve">
+    <value>
+Şirket hissedarlarına ortak oldukları pay oranında yıllık kardan veya bunun için ayrılmış yedek akçeden kar payı dağıtılmasıdır.
+</value>
+  </data>
+
+  <data name="dünyadabilinenkitlefonlamaplatformlarinelerdir" xml:space="preserve">
+    <value>
+Kickstarter, Indiegogo, GoFundMe, RocketHub, CrowdFunder, EquityNet
+
+</value>
+  </data>
+
+  <data name="kitlefonlamasimodellerinelerdir" xml:space="preserve">
+    <value>
+Kitle Fonlaması Ödül bazlı, Bağış bazlı, Hisse bazlı ve Borç bazlı olarak 4 farklı kategoriye ayrılmaktadır.
+</value>
+  </data>
+
+  <data name="maksimumfonlamamiktarindagüncellemevarmi" xml:space="preserve">
+    <value>
+Güncelleme bir takvim yılı içerisinde bir kez yapılmakta bu kapsamda Ek bir güncelleme bulunmamaktadır. Buna göre maksimum fonlama miktarı 20.000.000,00 TL’dir.
+</value>
+  </data>
+
+  <data name="melekyatirimagi" xml:space="preserve">
+    <value>Melek Yatırım Ağı</value>
+  </data>
+
+  <data name="melekyatirimagi" xml:space="preserve">
+    <value>Melek Yatırım Ağı</value>
+  </data>
+
+  <data name="melekyatirimagi" xml:space="preserve">
+    <value>Melek Yatırım Ağı</value>
+  </data>
+
+
+</root>
+

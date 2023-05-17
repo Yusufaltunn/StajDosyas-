@@ -1,0 +1,556 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\" />
+    <None Remove="Resources\Views\" />
+    <None Remove="Resources\Views\Anasayfa\" />
+    <None Remove="Resources\Views\Bildirimler\" />
+    <None Remove="Resources\Views\GirisimProje\" />
+    <None Remove="Resources\Views\Kampanyalar\" />
+    <None Remove="Resources\Views\Kurumsal\" />
+    <None Remove="Resources\Views\Shared\" />
+    <None Remove="Resources\Views\Uye\" />
+    <None Remove="Views\Shared\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Resources\Views\" />
+    <Folder Include="Resources\Views\Anasayfa\" />
+    <Folder Include="Resources\Views\Bildirimler\" />
+    <Folder Include="Resources\Views\GirisimProje\" />
+    <Folder Include="Resources\Views\Kampanyalar\" />
+    <Folder Include="Resources\Views\Kurumsal\" />
+    <Folder Include="Resources\Views\Shared\" />
+    <Folder Include="Resources\Views\Uye\" />
+    <Folder Include="Views\Shared\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Shared\_Layout.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Shared\_ValidationScriptsPartial.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Shared\Error.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\Index-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\AcilacakProjelerPart-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AcilacakProjelerPart-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\CozumOrtaklarimizPart-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CozumOrtaklarimizPart-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\Error-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Error-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\ForgotPass-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ForgotPass-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\HaberlerPartial-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>HaberlerPartial-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\HesapOlusturPartial-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>HesapOlusturPartial-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\KvkkMetni-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>KvkkMetni-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\Login-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Login-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\MailDogrulama-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MailDogrulama-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\MetinPartial-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MetinPartial-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\ProjelerPartial-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjelerPartial-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\Register-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Register-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\SifreBelirle-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SifreBelirle-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\SlaytsPartial-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SlaytsPartial-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\TamamlananProjelerPart-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TamamlananProjelerPart-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\SpkBilgiPart-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SpkBilgiPart-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Anasayfa\VideoPartial-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>VideoPartial-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Bildirimler\GenelRiskBildirimi-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GenelRiskBildirimi-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Bildirimler\Index-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Bildirimler\KampanyaSozlesmesi-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>KampanyaSozlesmesi-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Bildirimler\KamuyuAydinlatma-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>KamuyuAydinlatma-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Bildirimler\SermayePiyasasıKurulu-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SermayePiyasasıKurulu-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Bildirimler\UyelikSozlesmesi-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UyelikSozlesmesi-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\Index-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\KampanyaBilgiFormu-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>KampanyaBilgiFormu-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\KampanyaHeaderDetayPartial-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>KampanyaHeaderDetayPartial-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\KampanyaSideBarPartial-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>KampanyaSideBarPartial-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\ProjeAnaliz-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjeAnaliz-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\ProjeBelgeOdul-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjeBelgeOdul-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\ProjeDuyurular-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjeDuyurular-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\ProjeFinansalTablolar-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjeFinansalTablolar-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\ProjeFonlama-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjeFonlama-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\ProjeGorseller-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjeGorseller-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\ProjeHakkinda-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjeHakkinda-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\ProjePazar-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjePazar-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\ProjeRiskler-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjeRiskler-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\ProjeTakim-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjeTakim-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\ProjeSoruCevaplar-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjeSoruCevaplar-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\ProjeUrunUretim.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjeUrunUretim.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\ProjeYatirimcilar-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjeYatirimcilar-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kampanyalar\YatirimYap-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>YatirimYap-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kurumsal\BasindaFonAngels-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BasindaFonAngels-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kurumsal\BilgiGuvenligi-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BilgiGuvenligi-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kurumsal\CikarCatismasi-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CikarCatismasi-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kurumsal\CozumOrtaklarimiz.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CozumOrtaklarimiz.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kurumsal\Degerlendirme-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Degerlendirme-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kurumsal\Hissedarlar-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Hissedarlar-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kurumsal\Iletisim-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Iletisim-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kurumsal\Index-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kurumsal\Kalite-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Kalite-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kurumsal\KaraParaileMucadele-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>KaraParaileMucadele-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kurumsal\MelekYatirimAgi-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MelekYatirimAgi-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kurumsal\RusvetVeYolsuzluklaMucadele-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RusvetVeYolsuzluklaMucadele-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kurumsal\Takimimiz-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Takimimiz-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kurumsal\YatırımKomitesi-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>YatırımKomitesi-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Kurumsal\YonetimKurulu-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>YonetimKurulu-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Shared\_menuOrjPart-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>_menuOrjPart-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Shared\CounterPartial-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CounterPartial-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Shared\SifreYenilemePartial-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SifreYenilemePartial-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Shared\SitePartialFooter-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SitePartialFooter-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Uye\BireyselUye.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BireyselUye.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Uye\DestekMerkezi-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DestekMerkezi-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Uye\GirisimciKayit.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GirisimciKayit.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Uye\Index-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Uye\KurumsalUye-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>KurumsalUye-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Uye\MkkUyeKontrolu-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MkkUyeKontrolu-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Uye\TcDogrula-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TcDogrula-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Uye\TelefonDogrula-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TelefonDogrula-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Uye\VknDogrula-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>VknDogrula-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Uye\Yatirimlarim-tr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Yatirimlarim-tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Resources\Views\Anasayfa\Index-tr.Designer.cs">
+      <DependentUpon>Index-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\AcilacakProjelerPart-tr.Designer.cs">
+      <DependentUpon>AcilacakProjelerPart-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\CozumOrtaklarimizPart-tr.Designer.cs">
+      <DependentUpon>CozumOrtaklarimizPart-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\Error-tr.Designer.cs">
+      <DependentUpon>Error-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\ForgotPass-tr.Designer.cs">
+      <DependentUpon>ForgotPass-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\HaberlerPartial-tr.Designer.cs">
+      <DependentUpon>HaberlerPartial-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\HesapOlusturPartial-tr.Designer.cs">
+      <DependentUpon>HesapOlusturPartial-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\KvkkMetni-tr.Designer.cs">
+      <DependentUpon>KvkkMetni-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\Login-tr.Designer.cs">
+      <DependentUpon>Login-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\MailDogrulama-tr.Designer.cs">
+      <DependentUpon>MailDogrulama-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\MetinPartial-tr.Designer.cs">
+      <DependentUpon>MetinPartial-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\ProjelerPartial-tr.Designer.cs">
+      <DependentUpon>ProjelerPartial-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\Register-tr.Designer.cs">
+      <DependentUpon>Register-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\SifreBelirle-tr.Designer.cs">
+      <DependentUpon>SifreBelirle-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\SlaytsPartial-tr.Designer.cs">
+      <DependentUpon>SlaytsPartial-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\TamamlananProjelerPart-tr.Designer.cs">
+      <DependentUpon>TamamlananProjelerPart-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\SpkBilgiPart-tr.Designer.cs">
+      <DependentUpon>SpkBilgiPart-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Anasayfa\VideoPartial-tr.Designer.cs">
+      <DependentUpon>VideoPartial-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Bildirimler\GenelRiskBildirimi-tr.Designer.cs">
+      <DependentUpon>GenelRiskBildirimi-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Bildirimler\Index-tr.Designer.cs">
+      <DependentUpon>Index-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Bildirimler\KampanyaSozlesmesi-tr.Designer.cs">
+      <DependentUpon>KampanyaSozlesmesi-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Bildirimler\KamuyuAydinlatma-tr.Designer.cs">
+      <DependentUpon>KamuyuAydinlatma-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Bildirimler\SermayePiyasasıKurulu-tr.Designer.cs">
+      <DependentUpon>SermayePiyasasıKurulu-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Bildirimler\UyelikSozlesmesi-tr.Designer.cs">
+      <DependentUpon>UyelikSozlesmesi-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\Index-tr.Designer.cs">
+      <DependentUpon>Index-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\KampanyaBilgiFormu-tr.Designer.cs">
+      <DependentUpon>KampanyaBilgiFormu-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\KampanyaHeaderDetayPartial-tr.Designer.cs">
+      <DependentUpon>KampanyaHeaderDetayPartial-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\KampanyaSideBarPartial-tr.Designer.cs">
+      <DependentUpon>KampanyaSideBarPartial-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\ProjeAnaliz-tr.Designer.cs">
+      <DependentUpon>ProjeAnaliz-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\ProjeBelgeOdul-tr.Designer.cs">
+      <DependentUpon>ProjeBelgeOdul-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\ProjeDuyurular-tr.Designer.cs">
+      <DependentUpon>ProjeDuyurular-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\ProjeFinansalTablolar-tr.Designer.cs">
+      <DependentUpon>ProjeFinansalTablolar-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\ProjeFonlama-tr.Designer.cs">
+      <DependentUpon>ProjeFonlama-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\ProjeGorseller-tr.Designer.cs">
+      <DependentUpon>ProjeGorseller-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\ProjeHakkinda-tr.Designer.cs">
+      <DependentUpon>ProjeHakkinda-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\ProjePazar-tr.Designer.cs">
+      <DependentUpon>ProjePazar-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\ProjeRiskler-tr.Designer.cs">
+      <DependentUpon>ProjeRiskler-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\ProjeTakim-tr.Designer.cs">
+      <DependentUpon>ProjeTakim-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\ProjeSoruCevaplar-tr.Designer.cs">
+      <DependentUpon>ProjeSoruCevaplar-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\ProjeUrunUretim.Designer.cs">
+      <DependentUpon>ProjeUrunUretim.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\ProjeYatirimcilar-tr.Designer.cs">
+      <DependentUpon>ProjeYatirimcilar-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kampanyalar\YatirimYap-tr.Designer.cs">
+      <DependentUpon>YatirimYap-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kurumsal\BasindaFonAngels-tr.Designer.cs">
+      <DependentUpon>BasindaFonAngels-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kurumsal\BilgiGuvenligi-tr.Designer.cs">
+      <DependentUpon>BilgiGuvenligi-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kurumsal\CikarCatismasi-tr.Designer.cs">
+      <DependentUpon>CikarCatismasi-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kurumsal\CozumOrtaklarimiz.Designer.cs">
+      <DependentUpon>CozumOrtaklarimiz.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kurumsal\Degerlendirme-tr.Designer.cs">
+      <DependentUpon>Degerlendirme-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kurumsal\Hissedarlar-tr.Designer.cs">
+      <DependentUpon>Hissedarlar-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kurumsal\Iletisim-tr.Designer.cs">
+      <DependentUpon>Iletisim-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kurumsal\Index-tr.Designer.cs">
+      <DependentUpon>Index-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kurumsal\Kalite-tr.Designer.cs">
+      <DependentUpon>Kalite-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kurumsal\KaraParaileMucadele-tr.Designer.cs">
+      <DependentUpon>KaraParaileMucadele-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kurumsal\MelekYatirimAgi-tr.Designer.cs">
+      <DependentUpon>MelekYatirimAgi-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kurumsal\RusvetVeYolsuzluklaMucadele-tr.Designer.cs">
+      <DependentUpon>RusvetVeYolsuzluklaMucadele-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kurumsal\Takimimiz-tr.Designer.cs">
+      <DependentUpon>Takimimiz-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kurumsal\YatırımKomitesi-tr.Designer.cs">
+      <DependentUpon>YatırımKomitesi-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Kurumsal\YonetimKurulu-tr.Designer.cs">
+      <DependentUpon>YonetimKurulu-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Shared\_menuOrjPart-tr.Designer.cs">
+      <DependentUpon>_menuOrjPart-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Shared\CounterPartial-tr.Designer.cs">
+      <DependentUpon>CounterPartial-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Shared\SifreYenilemePartial-tr.Designer.cs">
+      <DependentUpon>SifreYenilemePartial-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Shared\SitePartialFooter-tr.Designer.cs">
+      <DependentUpon>SitePartialFooter-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Uye\BireyselUye.Designer.cs">
+      <DependentUpon>BireyselUye.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Uye\DestekMerkezi-tr.Designer.cs">
+      <DependentUpon>DestekMerkezi-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Uye\GirisimciKayit.Designer.cs">
+      <DependentUpon>GirisimciKayit.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Uye\Index-tr.Designer.cs">
+      <DependentUpon>Index-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Uye\KurumsalUye-tr.Designer.cs">
+      <DependentUpon>KurumsalUye-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Uye\MkkUyeKontrolu-tr.Designer.cs">
+      <DependentUpon>MkkUyeKontrolu-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Uye\TcDogrula-tr.Designer.cs">
+      <DependentUpon>TcDogrula-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Uye\TelefonDogrula-tr.Designer.cs">
+      <DependentUpon>TelefonDogrula-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Uye\VknDogrula-tr.Designer.cs">
+      <DependentUpon>VknDogrula-tr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Uye\Yatirimlarim-tr.Designer.cs">
+      <DependentUpon>Yatirimlarim-tr.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Shared\_Layout.cshtml" />
+    <Content Remove="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <Content Remove="Views\Shared\Error.cshtml" />
+  </ItemGroup>
+</Project>

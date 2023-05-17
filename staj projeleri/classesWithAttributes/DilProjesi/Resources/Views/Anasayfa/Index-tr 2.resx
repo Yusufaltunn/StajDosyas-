@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+	<data name="yatirimci" xml:space="preserve">
+    <value>Yatırımcı</value>
+  </data>
+
+  <data name="yatirimyap" xml:space="preserve">
+    <value>Yatırım Yap</value>
+  </data>
+
+  <data name="girisimsermayasiyatirimfonlari" xml:space="preserve">
+    <value>Girişim Sermayesi Yatırım Fonları </value>
+  </data>
+
+  <data name="destekmerkezi" xml:space="preserve">
+    <value>Destek Merkezi </value>
+  </data>
+
+  <data name="girisimci" xml:space="preserve">
+    <value>Girişimci</value>
+  </data>
+
+  <data name="projenigonder" xml:space="preserve">
+    <value>Projeni Gönder</value>
+  </data>
+
+  <data name="destekmerkezi" xml:space="preserve">
+    <value>Destek Merkezi</value>
+  </data>
+
+  <data name="gereklifonanasilulasirim" xml:space="preserve">
+    <value>Gerekli Fona Nasıl ulaşırım </value>
+  </data>
+
+  <data name="kurumsal" xml:space="preserve">
+    <value>Kurumsal</value>
+  </data>
+
+<data name="hakkimizda" xml:space="preserve">
+    <value>Hakkımızda </value>
+  </data>
+
+<data name="takimimiz" xml:space="preserve">
+    <value>Takımımız</value>
+  </data>
+
+  <data name="yonetimkurulumuz" xml:space="preserve">
+    <value>Yönetim Kurulumuz</value>
+  </data>
+
+  <data name="yatirimkomitesi" xml:space="preserve">
+    <value>Yatırımı Komitesi </value>
+  </data>
+
+  <data name="kampanyalar" xml:space="preserve">
+    <value>Kampanyalar</value>
+  </data>
+
+  <data name="tumkampanyalar" xml:space="preserve">
+    <value>Tüm Kampanylar</value>
+  </data>
+
+  <data name="kurumsal" xml:space="preserve">
+    <value>Kurumsal</value>
+  </data>
+
+  <data name="hakkimizda" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+
+  <data name="yonetimkurulu" xml:space="preserve">
+    <value>Yönetim Kurulu</value>
+  </data>
+
+  <data name="yatirimkomitesi" xml:space="preserve">
+    <value>Yatırım Komitesi </value>
+  </data>
+
+  <data name="takimimiz" xml:space="preserve">
+    <value>Takımımız </value>
+  </data>
+
+  <data name="gsyf" xml:space="preserve">
+    <value>GSYF</value>
+  </data>
+
+  <data name="melekyatirimagi" xml:space="preserve">
+    <value>Melek Yatırım Ağı</value>
+  </data>
+
+  <data name="hissedarlar" xml:space="preserve">
+    <value>Hissedarlar</value>
+  </data>
+
+  <data name="cozumortaklarimiz" xml:space="preserve">
+    <value>Çözüm Ortaklarımız</value>
+  </data>
+
+  <data name="iletisim" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+
+  <data name="politikalar" xml:space="preserve">
+    <value>Politikalar</value>
+  </data>
+
+  <data name="kalite" xml:space="preserve">
+    <value>Kalite</value>
+  </data>
+
+  <data name="degerlendirme" xml:space="preserve">
+    <value>Değerlendirme</value>
+  </data>
+
+  <data name="cikarcatismasi" xml:space="preserve">
+    <value>Çıkar Çatışması</value>
+  </data>
+
+  <data name="bilgiguvenligi" xml:space="preserve">
+    <value>Bilgi Güvenliği </value>
+  </data>
+
+  <data name="karaparailemucadele" xml:space="preserve">
+    <value>Kara Para İle Mücadale</value>
+  </data>
+
+  <data name="rusvetveyolsuzluklamucadele" xml:space="preserve">
+    <value>Rüşvet Ve Yolsuzluk Mücadalesi </value>
+  </data>
+
+  <data name="bildirimler" xml:space="preserve">
+    <value>Bildirimler</value>
+  </data>
+
+  <data name="kamoyuaydinlatma" xml:space="preserve">
+    <value>Kamuoyu Aydınlatma </value>
+  </data>
+
+  <data name="kvkkbildirimi" xml:space="preserve">
+    <value>KVKK Bildirimi </value>
+  </data>
+
+  <data name="genelriskbildirimi" xml:space="preserve">
+    <value>Genel Risk Bildirimi </value>
+  </data>
+
+  <data name="sermayepiyasasikurulu" xml:space="preserve">
+    <value>Sermaye Piyasası Kurulu </value>
+  </data>
+
+  <data name="uyeliksozlesmesi" xml:space="preserve">
+    <value>Üyelik Sözleşmesi</value>
+  </data>
+
+  <data name="kampanyasozlesmesi" xml:space="preserve">
+    <value>Kampanya Sözleşmesi</value>
+  </data>
+
+  <data name="belgelerimiz" xml:space="preserve">
+    <value>Belgelerimiz</value>
+  </data>
+
+   
+
+</root>
+
